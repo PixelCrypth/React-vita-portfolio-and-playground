@@ -1,0 +1,127 @@
+body,
+html {
+  color: white;
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+#root {
+  width: 100%; /* Take up entire width of the page */
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box; /* Include padding in width calculation */
+  height: calc(100vh - 4rem); /* Subtract padding from viewport height */
+}
+
+.button-margin{
+margin-left: 1rem;
+
+}
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem; */
+  /* text-align: center; */
+
+
+
+.Alert-button-div,
+.Choice-button-div,
+.Counter-div,
+.Remember-note-button-div,
+.About-me-div {
+  background-color: #353a42;
+  border: none;
+  padding: 0.5em 1em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1em;
+  border-radius: 0.5em;
+}
+
+.header {
+  background-color: #353a42;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5em;
+  box-shadow: 0px 4px 8px rgba(159, 187, 247, 0.473); /* Add a subtle shadow */
+}
+.intro-div {
+  background-color: #677791;
+  padding: 0.5em 1em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5em;
+  box-shadow: 0px 4px 8px rgba(159, 187, 247, 0.473); /* Add a subtle shadow */
+}
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navbar {
+  background-color: #353a42;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #61dafb;
+  font-size: 1.2rem;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
